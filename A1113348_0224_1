@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class A1113348_0224_1{
+	public static void main(String[] argv){
+	
+	int number, answer;
+
+	System.out.println("請輸入一個整數:");
+	Scanner sc = new Scanner(System.in);
+	number = sc.nextInt();
+
+	answer = number % 2;
+
+	System.out.println(answer == 1 ? "奇數":"偶數");			
+	}
+}
